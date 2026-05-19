@@ -1,0 +1,25 @@
+{
+  "hash": "a1d3c69a",
+  "configHash": "bb75f8f4",
+  "lockfileHash": "7ae81695",
+  "browserHash": "8a730563",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "c13f999d",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "30ac13c4",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-GILJNNX3": {
+      "file": "chunk-GILJNNX3.js"
+    }
+  }
+}

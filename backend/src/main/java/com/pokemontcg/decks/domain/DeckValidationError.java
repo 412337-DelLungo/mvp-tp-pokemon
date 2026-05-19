@@ -1,0 +1,9 @@
+package com.pokemontcg.decks.domain;
+
+public enum DeckValidationError {
+    DECK_SIZE_INVALID,
+    DUPLICATE_CARDS,
+    MISSING_BASIC_POKEMON,
+    MORE_THAN_4_COPIES,
+    INVALID_DECK_FORMAT
+}

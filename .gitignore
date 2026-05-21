@@ -1,0 +1,76 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VS Code local workspace settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.properties
+
+# Java / Maven / Spring Boot
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Angular / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/coverage/
+frontend/.cache/
+
+# Keep package-lock.json versioned
+!frontend/package-lock.json
+
+# Build outputs anywhere
+dist/
+build/
+out/
+target/
+coverage/
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Database local files
+*.db
+*.sqlite
+*.sqlite3
+
+# Do NOT ignore project guidance files
+!docs/
+!docs/contracts_ai/
+!openspec/
+!.opencode/
+!CONVENTIONS.md
+!Workflow.md
+!README.md
